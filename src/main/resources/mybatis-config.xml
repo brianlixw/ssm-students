@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <mappers>
+        <!-- XML实现 -->
+        <mapper resource="mapper/StudentMapper.xml"/>
+        <!--&lt;!&ndash; 注解实现 &ndash;&gt;
+        <mapper class="com.chzu.dao.StudentDao"/>-->
+    </mappers>
+</configuration>
